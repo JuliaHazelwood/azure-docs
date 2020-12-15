@@ -200,6 +200,7 @@ Set up the appliance for the first time.
         - Specify credentials if the proxy needs authentication.
         - Only HTTP proxy is supported.
         - If you have added proxy details or disabled the proxy and/or authentication, click on **Save** to trigger connectivity check again.
+        - **Setting system proxy or changing proxy in browser settings will not allow for 'Register' step to succeed, must also set in the 'Set up prerequisites' section proxy**
     - **Time sync**: Time is verified. The time on the appliance should be in sync with internet time for server discovery to work properly.
     - **Install updates**: Azure Migrate Server Assessment checks that the appliance has the latest updates installed.After the check completes, you can click on **View appliance services** to see the status and versions of the components running on the appliance.
 
